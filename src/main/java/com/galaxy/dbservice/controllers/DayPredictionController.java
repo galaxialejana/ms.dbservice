@@ -12,7 +12,7 @@ import com.galaxy.dbservice.repository.DayPrediction;
 import com.galaxy.dbservice.repository.IWeatherPredictionRespository;
 
 @RestController
-@RequestMapping("/dayPredictions")
+@RequestMapping("/db/dayPredictions")
 public class DayPredictionController {
 
 	@Autowired
